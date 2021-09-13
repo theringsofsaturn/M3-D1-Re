@@ -20,6 +20,11 @@ const isFifty = function (a, b) {
 
 /* 3. Create a function to remove a character at a specified position from a given string: pass the position and the string as parameters, return the new string. */
 
+const removeChar = function (str, pos) {
+  return str.slice(0, pos) + str.slice(pos + 1);
+};
+//console.log(removeChar("strive", 3));
+
 /* 4. Create a function to find and return the largest of three given integers. */
 
 /* 5. Create a function to check if two numbers are in the range 40-60 or 70-100. 
