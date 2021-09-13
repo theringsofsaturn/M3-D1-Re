@@ -185,6 +185,15 @@ const checkSign = function (a, b) {
 /* 16. Create a function to create and return a new string where the first 3 characters and in lower case and the others are in upper case. 
     If the string's length is less than 3, convert the whole string into uppercase. Pass the original string as a parameter. */
 
+const convertCase = function (str) {
+  if (str.length < 3) {
+    return str.toUpperCase();
+  } else {
+    return str.slice(0, 3).toLowerCase() + str.slice(3).toUpperCase();
+  }
+};
+console.log(convertCase("strive"));
+
 /* 17. Create a function to calculate the sum of two integers (passed as parameters). 
     If the sum is in the 50-80 range, return `65`, otherwise, return `80`. */
 
