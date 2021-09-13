@@ -10,6 +10,14 @@ const sum = function (a, b) {
 
 /* 2. Create a function to check two given integers. Return `true` if one of them is 50 or if their sum is 50. */
 
+const isFifty = function (a, b) {
+  if (a === 50 || b === 50 || a + b === 50) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
 /* 3. Create a function to remove a character at a specified position from a given string: pass the position and the string as parameters, return the new string. */
 
 /* 4. Create a function to find and return the largest of three given integers. */
