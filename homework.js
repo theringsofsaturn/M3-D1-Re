@@ -137,6 +137,18 @@ console.log(getLongestStr(["aa", "ccccc", "ddd"]));
     Pass the angle as a parameter.
 */
 
+const angleType = function (angle) {
+  if (angle < 90) {
+    return "acute";
+  } else if (angle === 90) {
+    return "right";
+  } else if (angle < 180) {
+    return "obtuse";
+  } else {
+    return "straight";
+  }
+};
+
 /* 13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter. */
 
 /* 14. Create a function to find and return the largest **even** number from an array of integers that is passed a parameter. */
