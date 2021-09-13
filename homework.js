@@ -49,6 +49,19 @@ checkRange(40, 50);
 /* 6. Create a function to create a new string composed of a specified number of copies of a given string. 
     Pass the string and the number of copies as parameters. */
 
+const createCopies = function (str, n) {
+  if (n <= 0) {
+    return "n should be positive";
+  } else {
+    let copies = "";
+    for (let i = 0; i < n; i++) {
+      copies += str + " ";
+    }
+    return copies;
+  }
+};
+console.log(createCopies("strive", 4));
+
 /* 7. Create a function to display the city name if the string begins with "Los" or "New". 
     Pass the city name as a parameter. Return `false` if they start with a different string. */
 
