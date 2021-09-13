@@ -105,6 +105,14 @@ const checkArray = function (arr) {
 /* 10. Create a function to test if an array of lenght 2 DOES NOT contain 1 or 3. 
     Return `true` if it doesn't, `false` if it does. */
 
+const notIncludes = function (arr) {
+  if (!checkArray(arr)) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
 /* 11. Create a function to find the longest string from a given array of strings. 
     Pass the array as parameter and return the longest string. */
 
