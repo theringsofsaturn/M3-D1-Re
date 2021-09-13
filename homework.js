@@ -151,6 +151,13 @@ const angleType = function (angle) {
 
 /* 13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter. */
 
+const findIndexofLargestInt = function (arr) {
+  const largest = [...arr].sort((a, b) => b - a)[0];
+  console.log(largest);
+  return arr.indexOf(largest);
+};
+console.log(findIndexofLargestInt([4, 8, 2]));
+
 /* 14. Create a function to find and return the largest **even** number from an array of integers that is passed a parameter. */
 
 /* 15. Create a function to check from two given integers (passed as parameters) if one is positive and the other is negative. 
