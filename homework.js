@@ -213,5 +213,14 @@ const checkSumRange = function (a, b) {
     âš ï¸ The factor is an integer which evenly divides a number without leaving a remainder. One number can have more than one factor, in that case you should return both names. 
 Ex. 15 has both 3 and 5 has factors: the function will return `DiegoRiccardo` */
 
+const numToStrByFactor = function (num) {
+  let str = "";
+  if (num % 3 === 0) str += "Diego";
+  if (num % 5 === 0) str += "Riccardo";
+  if (num % 7 === 0) str += "Stefano";
+  return str;
+};
+console.log(numToStrByFactor(21));
+
 /* 19. Create a function that that takes a phrase as a parameter and returns its acronym.
 Ex. British Broadcasting Corporation returns `BBC` */
