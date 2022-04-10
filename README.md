@@ -1,7 +1,7 @@
 
 # JavaScript Algorithms Challenge
 
-# Module 2 / Day 1 at Strive School (EPICODE)
+# Module 3 / Day 1 at Strive School (EPICODE)
 # Answers in the homework.js file
 
 /*
